@@ -14,8 +14,7 @@ img {
   margin: 0 auto;
 }
 
-.fname,
-.lname {
+[class$=name] {
   width: 100px;
   height: 30px;
   color: teal;
@@ -31,5 +30,5 @@ img {
 }
 
 .lname {
-  margin-top: 70px;
+  margin-top: 80px;
 }
