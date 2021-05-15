@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    /* margin: 0; */
+}
+
+div {
+    border: 3px white solid;
+    margin: 0 auto;
+
+}
+img {
+ width: 100%;
+}
+
+
+
+.fname, .lname {
+    width: 100px;
+    height: 30px;
+    color: teal;
+    font-weight: bold;
+    border-radius: 40px;
+    background-color: white;
+    border: teal 3px solid;
+    padding: 10px;
+    text-align: center;
+
+}
+.ricky {
+    position: relative;
+    width: 500px;
+}
+.fname {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+.lname {
+    position: absolute;
+    top: 70px;
+    right: -30px;
+    margin-top: 40px;
+}
